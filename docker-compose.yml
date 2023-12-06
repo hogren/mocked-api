@@ -1,0 +1,11 @@
+services:
+  php:
+    environment:
+      HOME: '/var/www'
+    build: 'docker/php'
+    user: '1002:1003'
+    working_dir: '/var/www/'
+    volumes:
+      - './:/var/www'
+    ports:
+      - '8000:8000'

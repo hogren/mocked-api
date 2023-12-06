@@ -1,0 +1,3 @@
+At this moment, the project is just a blank Symfony 7 project, with one useless controller which accepts all request.
+
+DO NOT USE IN A PRODUCTION SERVER !

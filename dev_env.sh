@@ -1,0 +1,1 @@
+alias php="docker compose run --rm php php"
